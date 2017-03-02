@@ -1,0 +1,21 @@
+{
+  "name": "node-live-dns-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony-async-await app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "fs-promise": "^1.0.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "soap": "^0.18.0",
+    "winston": "^2.3.1"
+  }
+}
